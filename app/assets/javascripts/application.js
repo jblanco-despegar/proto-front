@@ -10,4 +10,6 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require 'vendor/angular.min'
+//= require 'vendor/angular-resource'
 //= require_tree .

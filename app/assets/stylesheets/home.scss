@@ -1,3 +1,32 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#main{
+  .left{
+    background-color: purple;
+    float: left;
+    width: 250px;
+  }
+  .right{
+    background-color: green;
+    float: left;
+    width: 250px;
+  }
+  p{
+    color: white;
+  }
+}
+
+.clear{
+  clear: both;
+}
+
+.eva-grid{
+  margin-top: 15px;
+  div{
+    border: 1px solid red;
+    background-color: #DDDDDD;
+  }
+}
